@@ -28,3 +28,5 @@ Will probably work for other department's courses if the initalization url is ch
 in CourseFinder.
 
 Run the tests `rspec spec/`
+
+The original script is in `mit_script.rb`. This is the classical refactor ;)
