@@ -20,7 +20,7 @@ RSpec.describe CourseFinder do
     it 'adds links to .results' do
       @finder = CourseFinder.new
       @finder.all_courses
-      expect(@finder.results.size).to_not be 0
+      expect(@finder.courses.size).to_not be 0
     end 
   end
 end
