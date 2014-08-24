@@ -3,10 +3,9 @@ require 'nokogiri'
 require 'set'
 
 class CourseFinder
-  attr_accessor :url, :results, :courses
+  attr_accessor :url, :courses
   def initialize
     @url = 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/'
-    @results = Set.new
     @courses = Set.new
   end
 

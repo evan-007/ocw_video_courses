@@ -8,10 +8,6 @@ RSpec.describe CourseFinder do
     expect(@instance.instance_of?(CourseFinder)).to eq true
   end
 
-  it 'has results ' do
-    expect(CourseFinder.new.results).to eq Set.new 
-  end
-
   it 'has a url' do
     @instance = CourseFinder.new
     expect(@instance.url).to_not be nil
