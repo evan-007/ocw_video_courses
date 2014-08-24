@@ -27,4 +27,4 @@ A fun and simple ruby script with tests. Requires `nokogiri`
 Will probably work for other department's courses if the initalization url is changed
 in CourseFinder.
 
-Run the tests `rspec spec/'
+Run the tests `rspec spec/`
